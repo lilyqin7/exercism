@@ -1314,6 +1314,14 @@
         "practices": [],
         "prerequisites": [],
         "difficulty": 5
+      },
+      {
+        "slug": "inline-test",
+        "name": "inline-test",
+        "uuid": "3d2caa7a-28c2-4266-8b50-fec285836d88",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 1
       }
     ],
     "foregone": [
