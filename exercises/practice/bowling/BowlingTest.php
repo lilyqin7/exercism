@@ -684,7 +684,7 @@ class BowlingTest extends TestCase
     #[TestDox('a strike with the one roll bonus after a spare in the last frame does not get a bonus')]
     public function testStrikesWithTheTwoRollBonusDoNotGetBonusRolls(): void
     {
-                $game = new Game();
+        $game = new Game();
 
         // Frame 1
         $game->roll(0);
