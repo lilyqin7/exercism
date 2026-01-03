@@ -232,7 +232,7 @@ class BowlingTest extends TestCase
         $game->roll(5);
         $game->roll(5);
 
-        // Frame 2 - Spare (3 + 7 = 10)
+        // Frame 2 - Spare
         $game->roll(3);
         $game->roll(7);
         
