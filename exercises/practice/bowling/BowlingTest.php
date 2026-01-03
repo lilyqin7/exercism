@@ -633,7 +633,7 @@ class BowlingTest extends TestCase
     #[TestDox('last two strikes followed by only last bonus with non strike points')]
     public function testLastTwoStrikesFollowedByOnlyLastBonusWithNonStrikePoints(): void
     {
-                $game = new Game();
+        $game = new Game();
 
         // Frame 1
         $game->roll(0);
