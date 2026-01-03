@@ -126,7 +126,7 @@ class BowlingTest extends TestCase
     {
         $game = new Game();
     
-        // Frame 1 - Spare (6 + 4 = 10)
+        // Frame 1 - Spare
         $game->roll(6);
         $game->roll(4);
     
