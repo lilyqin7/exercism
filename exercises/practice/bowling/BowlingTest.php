@@ -315,7 +315,7 @@ class BowlingTest extends TestCase
         $game->roll(0);
         $game->roll(0);
         
-        // Frame 10 - Spare (7 + 3 = 10) with bonus roll
+        // Frame 10 - Spare with bonus roll
         $game->roll(7);
         $game->roll(3);
         $game->roll(7);  // Bonus roll
