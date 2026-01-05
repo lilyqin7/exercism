@@ -812,6 +812,42 @@ class BowlingTest extends TestCase
         // Frame 1 
         $game->roll(5);
         $game->roll(6);
+
+        // Frame 2
+        $game->roll(0);
+        $game->roll(0);
+
+        // Frame 3
+        $game->roll(0);
+        $game->roll(0);
+
+        // Frame 4
+        $game->roll(0);
+        $game->roll(0);
+        
+        // Frame 5
+        $game->roll(0);
+        $game->roll(0);
+        
+        // Frame 6
+        $game->roll(0);
+        $game->roll(0);
+        
+        // Frame 7
+        $game->roll(0);
+        $game->roll(0);
+        
+        // Frame 8
+        $game->roll(0);
+        $game->roll(0);
+        
+        // Frame 9
+        $game->roll(0);
+        $game->roll(0);
+
+        // Frame 10
+        $game->roll(0);
+        $game->roll(0);
     }
 
     /**
