@@ -24,7 +24,7 @@ class Game
                 // First roll of frame
                 $this->firstRollPins = $pins;
                 $this->rollsInFrame = 1;
-                
+
                 if ($pins == 10) { // Strike
                     $this->currentFrame++;
                     $this->rollsInFrame = 0;
