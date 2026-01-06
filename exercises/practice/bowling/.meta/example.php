@@ -53,6 +53,7 @@ class Game
                 $this->rollsInFrame = 3;
             }
         }
+        $this->rolls[] = $pins;
     }
 
     public function score()
