@@ -848,6 +848,8 @@ class BowlingTest extends TestCase
         // Frame 10
         $game->roll(0);
         $game->roll(0);
+
+        $game->score();
     }
 
     /**
